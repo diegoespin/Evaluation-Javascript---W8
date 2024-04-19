@@ -44,7 +44,7 @@
     </div>
     <div class="myapp">
       <!-- Ici vous injectez prénom + âge -->
-      <h1>Hello,<span></span><sup></sup></h1>
+      <h1 class="hello"></h1>
       <!-- La boite pour faire apparaître le BMI -->
       <div class="weight">
         <div class="bmi">
@@ -69,9 +69,12 @@
       </div>
       <div class="chart">
         <!-- Insérez ici votre Chart.js -->
+        <canvas id="myChart" aria-label="chart" role="img"></canvas>
       </div>
     </div>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="scripts/main.js"></script>
 </body>
 </html>
